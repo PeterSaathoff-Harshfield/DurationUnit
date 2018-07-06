@@ -12,6 +12,7 @@
 		D0878DDF20E7718300991CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0878DDD20E7718300991CBC /* Main.storyboard */; };
 		D0878DE120E7718500991CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0878DE020E7718500991CBC /* Assets.xcassets */; };
 		D0878DE420E7718500991CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0878DE220E7718500991CBC /* LaunchScreen.storyboard */; };
+		D0878DEC20E77ECA00991CBC /* DurationUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0878DEB20E77EC900991CBC /* DurationUnit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0878DE020E7718500991CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0878DE320E7718500991CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0878DE520E7718500991CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0878DEB20E77EC900991CBC /* DurationUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DurationUnit.swift; path = ../../DurationUnit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D0878DD820E7718300991CBC /* Durationunit */ = {
 			isa = PBXGroup;
 			children = (
+				D0878DEB20E77EC900991CBC /* DurationUnit.swift */,
 				D0878DD920E7718300991CBC /* AppDelegate.swift */,
 				D0878DDB20E7718300991CBC /* ViewController.swift */,
 				D0878DDD20E7718300991CBC /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				D0878DDC20E7718300991CBC /* ViewController.swift in Sources */,
 				D0878DDA20E7718300991CBC /* AppDelegate.swift in Sources */,
+				D0878DEC20E77ECA00991CBC /* DurationUnit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +283,9 @@
 		D0878DE920E7718500991CBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T58DUDY95;
 				INFOPLIST_FILE = Durationunit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,8 +301,9 @@
 		D0878DEA20E7718500991CBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T58DUDY95;
 				INFOPLIST_FILE = Durationunit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
