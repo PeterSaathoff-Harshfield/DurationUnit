@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Durationunit.xcodeproj">
+      location = "group:/Users/peter/Dropbox/swift/duration unit/Durationunit/Durationunit/DurationUnit.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
